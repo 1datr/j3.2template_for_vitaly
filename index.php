@@ -153,9 +153,13 @@ else
 			<header class="header" role="banner">
 			
 				<div class="header-inner clearfix">
+					<?php 
+					/*?>
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>">
 						<?php echo $logo;?> <?php if ($this->params->get('sitedescription')) { echo '<div class="site-description">'. htmlspecialchars($this->params->get('sitedescription')) .'</div>'; } ?>
 					</a>
+					*/?>
+					
 					<div class="header-search pull-right">
 						<jdoc:include type="modules" name="position-0" style="none" />
 					</div>
@@ -166,9 +170,22 @@ else
 			<nav class="navigation" role="navigation">
 				<jdoc:include type="modules" name="position-1" style="none" />
 			</nav>
+			<?php /*
+			<main id="content" role="main" class="<?php echo $span;?>">
+					<!-- Begin Content -->
+					<jdoc:include type="modules" name="position-3" style="xhtml" />
+					<jdoc:include type="message" />
+					<jdoc:include type="component" />
+					<jdoc:include type="modules" name="position-2" style="none" />
+					<!-- End Content -->
+			</main>*/
+			?>
 			</div>
 			</div>
 			
+			
+			
+			<?php /*
 			<jdoc:include type="modules" name="banner" style="xhtml" />
 			<div class="row-fluid">
 				<?php if ($this->countModules('position-8')) : ?>
@@ -194,8 +211,9 @@ else
 					<jdoc:include type="modules" name="position-7" style="well" />
 					<!-- End Right Sidebar -->
 				</div>
-				<?php endif; ?>
+				*/ ?>
 			</div>
+			?>
 		</div>
 	</div>
 	<!-- Footer -->
