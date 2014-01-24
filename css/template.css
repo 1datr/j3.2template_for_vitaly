@@ -1,3 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/* Connect the fonts*/
+/*
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(/templates/protostar/fonts/oswald.woff) format('woff');
+}
+*/
+/*
 article,
 aside,
 details,
@@ -185,14 +197,14 @@ textarea {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
+}*/
 body {
 	margin: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	color: #333;
-	/*background-color: #fff;*/
+
 	background-color: #000;
 }
 a {
@@ -6958,6 +6970,7 @@ body.site.fluid {
 	color: #08c;
 	text-decoration: none;
 }
+/*
 .header {
 	margin-bottom: 10px;
 }
@@ -6977,7 +6990,7 @@ body.site.fluid {
 .hero-unit > * {
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
+}*/
 
 .body .container {
 	/*background-color: #fff;*/
@@ -6995,6 +7008,11 @@ body.site.fluid {
 	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
 	box-shadow: 0px 0px 6px rgba(0,0,0,0.05);*/
 }
+
+.header {
+	height: 50px;	
+}
+
 .undernav {
 	background-image: url('/templates/protostar/images/body-bg11.png');	
 	background-repeat: no-repeat;
@@ -7015,11 +7033,16 @@ body.site.fluid {
 	margin-left:53%;
 }
 
+.navigation  ul li {
+	padding: 6px 0px;
+}
 .navigation  ul a {
 	color: rgb(153, 153, 153);
 	font-family: 'Oswald','sans-serif';
 	font-size: 18px;
 	font-weight: 400;
+	line-height: 27px;
+	text-transform: uppercase;
 }
 
 .navigation  ul a:hover {
@@ -7134,6 +7157,7 @@ h6 {
 	border-left: 2px solid #ddd;
 	padding-left: 5px;
 }*/
+
 .navigation .nav-child {
 	position: absolute;
 	top: 95%;
